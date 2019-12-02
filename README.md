@@ -9,8 +9,7 @@
 Это дает вам возможность анализировать любой набор данных, используя возможности searching/aggregatio Elasticsearch и возможности визуализации Kibana.
 
 > :information_source: Docker images, поддерживающие этот стек, включают include [Stack Features][stack-features] (formerly X-Pack)
-c [платными функциями][paid-features] включенными по умолчанию (see [How to disable paid
-features](#how-to-disable-paid-features) to disable them). The [trial license][trial-license] is valid for 30 days.
+c [платными функциями][paid-features] включенными по умолчанию (see [Как отключить платные функции](#how-to-disable-paid-features) как disable платные функции). [Пробная лицензия][trial-license] действительна в течение 30 дней..
 
 Основано на официальных Docker images от Elastic:
 
