@@ -4,7 +4,7 @@
 [![Elastic Stack version](https://img.shields.io/badge/ELK-7.4.1-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/441)
 [![Build Status](https://api.travis-ci.org/deviantony/docker-elk.svg?branch=master)](https://travis-ci.org/deviantony/docker-elk)
 
-Запустите последнюю версию стека [Elastic stack][elk-stack] с помощью Docker и Docker Compose.
+Как запустить последнюю версию стека [Elastic stack][elk-stack] с помощью Docker и Docker Compose.
 
 Это дает вам возможность анализировать любой набор данных, используя возможности searching/aggregatio Elasticsearch и возможности визуализации Kibana.
 
