@@ -4,22 +4,21 @@
 [![Elastic Stack version](https://img.shields.io/badge/ELK-7.4.1-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/441)
 [![Build Status](https://api.travis-ci.org/deviantony/docker-elk.svg?branch=master)](https://travis-ci.org/deviantony/docker-elk)
 
-Run the latest version of the [Elastic stack][elk-stack] with Docker and Docker Compose.
+Запустите последнюю версию стека [Elastic stack][elk-stack] с помощью Docker и Docker Compose.
 
-It gives you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and
-the visualization power of Kibana.
+Это дает вам возможность анализировать любой набор данных, используя возможности searching/aggregatio Elasticsearch и возможности визуализации Kibana.
 
-> :information_source: The Docker images backing this stack include [Stack Features][stack-features] (formerly X-Pack)
+> :information_source: Docker images, поддерживающие этот стек, включают include [Stack Features][stack-features] (formerly X-Pack)
 with [paid features][paid-features] enabled by default (see [How to disable paid
 features](#how-to-disable-paid-features) to disable them). The [trial license][trial-license] is valid for 30 days.
 
-Based on the official Docker images from Elastic:
+Основано на официальных Docker images от Elastic:
 
 * [Elasticsearch](https://github.com/elastic/elasticsearch/tree/master/distribution/docker)
 * [Logstash](https://github.com/elastic/logstash/tree/master/docker)
 * [Kibana](https://github.com/elastic/kibana/tree/master/src/dev/build/tasks/os_packages/docker_generator)
 
-Other available stack variants:
+Другие доступные варианты стека::
 
 * [`searchguard`](https://github.com/deviantony/docker-elk/tree/searchguard): Search Guard support
 
@@ -75,9 +74,7 @@ By default, the stack exposes the following ports:
 
 ### SELinux
 
-On distributions which have SELinux enabled out-of-the-box you will need to either re-context the files or set SELinux
-into Permissive mode in order for docker-elk to start properly. For example on Redhat and CentOS, the following will
-apply the proper context:
+В дистрибутивах, в которых SELinux включен «из коробки», вам потребуется либо re-context файлы, либо перевести SELinux в режим Permissive mode, чтобы правильно запустить docker-elk. Например, в Redhat и CentOS следующее будет применять правильный context:
 
 ```console
 $ chcon -R system_u:object_r:admin_home_t:s0 docker-elk/
