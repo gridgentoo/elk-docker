@@ -4,7 +4,7 @@
 [![Elastic Stack version](https://img.shields.io/badge/ELK-7.4.1-blue.svg?style=flat)](https://github.com/gridgentoo/elk-docker/issues/441)
 [![Build Status](https://api.travis-ci.org/gridgentoo/elk-docker.svg?branch=master)](https://travis-ci.org/gridgentoo/elk-docker)
 
-[Архитектура стека ELK] Suricata - это система обнаружения вторжений, с ELK и веб-интерфейсом в Ubuntu 18.04 LTS
+[Архитектура стека ELK] Suricata - это система обнаружения вторжений, с ELK и веб-интерфейсом в Ubuntu 18 & 19  
 https://docs.google.com/document/d/1458-tcemHX81QQJX4xxCkPaagxuY2uS9moShmz9V5xw/edit#
 
 Как запустить последнюю версию стека [Elastic stack][elk-stack] с помощью Docker и Docker Compose.
