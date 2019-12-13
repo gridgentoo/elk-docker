@@ -339,7 +339,7 @@ $ docker-compose up
 * [External applications](https://github.com/gridgentoo/elk-docker/wiki/External-applications)
 * [Popular integrations](https://github.com/gridgentoo/elk-docker/wiki/Popular-integrations)
 
-### Swarm mode
+### Swarm mode N555
 
 Экспериментальная поддержка режима Docker [Swarm mode][swarm-mode] предоставляется в виде файла `docker-stack.yml` который можно развернуть в существующем кластере Swarm с помощью следующей команды:
 
