@@ -20,7 +20,7 @@ c [платными функциями][paid-features] включенными п
 * [Logstash](https://github.com/elastic/logstash/tree/master/docker)
 * [Kibana](https://github.com/elastic/kibana/tree/master/src/dev/build/tasks/os_packages/docker_generator)
 
-Другие доступные варианты стека::
+Другие доступные варианты стека n5555::
 
 * [`searchguard`](https://github.com/gridgentoo/elk-docker/tree/searchguard): Search Guard support
 
